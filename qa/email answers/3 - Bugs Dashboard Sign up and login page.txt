@@ -1,0 +1,17 @@
+============== Login ==============
+
+============== Create Account ==============
+1. Validation Confirm New Password
+Location note:
+File: Test Case - ONEBRICK - WEB
+Sheet: VALIDASI CREATE ACCOUNT
+Code: TC-UI-C6
+Summary: Validasi tidak muncul saat field Confirm New Password dikosongkan, seharusnya jika itu mandatory (terbukti button create account tidak aktif jika belum match valuenya) harusnya ada validasi "The confirm new password is empty"
+
+2. Di halaman on boarding setelah login pertama kali langsung keluar alert
+Location note:
+File: Test Case - ONEBRICK - WEB
+Sheet: VALIDASI ON BOARDING
+Code: TC-UI-D1
+Summary: Alert message "Make sure to enter the right registered entity name. You can not change after this submitted." dan "Make sure to enter the right brand name. You can not change after this submitted." langsung muncul saat login pertama kali di halaman on boarding.
+Advice: Kalo ingin memberikan warning harusnya stylenya jangan kayak error message. Dibedakan, agar tidak miss persepsi.
